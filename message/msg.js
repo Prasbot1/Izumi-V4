@@ -6,7 +6,7 @@ Note : Jangan Perjualkan Sc Ini!!!
 
 Instagram Jojo : @arsrfi.jpg
 Youtube Jojo : Jojo Channel
-
+IP
 Instagram : @chris.tianid
 Youtube : Christian ID
 WhatsApp : 0859-2116-5857
@@ -636,13 +636,7 @@ case prefix+'formatid': // By Christian ID
 case prefix+'sc': //By Christian ID
   var teks = `*â”€â”€ ã€Œ SOURCE CODE ã€ â”€â”€*
 
-*Script : https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg*
-
-*_Sc Bot Versi 1 Via MediaFire : https://www.mediafire.com/file/zi97farlseupw3z/Christian-ID.zip/file_*
-
-*_Sc Bot Versi 2 Via MediaFire : https://www.mediafire.com/file/l8zoyc38l420wen/ChrisV1.7z/file_*
-
-_Sc Versi 2 Berpassword Syarat : Subscribe https://youtube.com/channel/UCbetUssizXWLgZdDVEFp8Sg Dan Screenshot Kirim Ke Owner_`
+*Script :LIAT LAH BOCIL INI!LAGI NGEMIS SC
 			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: button5, footer: `${footer}`, mentions: [sender] })
 			    break
 case prefix+'rules': //By Christian ID
