@@ -1451,7 +1451,7 @@ gameAdd(sender, glimit)
 break
 case prefix+'skertas':
   if (isGame(sender, isOwner, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
-  const kertas = [`Aku Memilih *Batu*\nKamu Memilih *Kertas*\n\n!! KAMU MENANG :( !!`,`Aku Memilih *Gunting*\nKamu Memilih *Kertas*\n\n!! KAMU KALAH !!`,`Aku Memilih *Kertas*\nKamu Memilih *Kertas*\n\n!! KITA SERI !!`]
+  const kertas = [`Aku Memilih *Batu*\nKamu Memilih *Kertas*\n\n!! KAMU MENANG HE:( !!`,`Aku Memilih *Gunting*\nKamu Memilih *Kertas*\n\n!! KAMU KALAH !!`,`Aku Memilih *Kertas*\nKamu Memilih *Kertas*\n\n!! KITA SERI !!`]
 					const kertash = kertas[Math.floor(Math.random() * kertas.length)]
 					var kertash2 = `*[ GAME SUIT ]*\n\n${kertash}`
 					conn.sendMessage(from, { text: kertash2 }, { quoted: msg })
