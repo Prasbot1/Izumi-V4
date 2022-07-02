@@ -637,7 +637,7 @@ case prefix+'sc': //By Christian ID
   var teks = `*â”€â”€ ã€Œ SOURCE CODE ã€ â”€â”€*
 
 *Script :LIAT LAH BOCIL INI!LAGI NGEMIS SC
-			    conn.sendMessage(from, { caption: teks, location: { jpegThumbnail: fs.readFileSync('media/chris2.jpg') }, templateButtons: button5, footer: `${footer}`, mentions: [sender] })
+			    conn.sendMessage(from, { caption: teks, image: fs.readFileSync('media/chris2.jpg'), templateButtons: button5, footer: `${footer}`, mentions: [sender] })
 			    break
 case prefix+'rules': //By Christian ID
   var teks = `*â”€â”€ ã€Œ RULES AND FAQ ã€ â”€â”€*
